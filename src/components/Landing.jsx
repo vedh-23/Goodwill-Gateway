@@ -1,20 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./style.css";
-import "../index.css";
+import "./Landing.css";
 export default function Landing() {
   return (
-    <div className="min-w-full bg-green-300 min-h-screen">
-      <div className="ok">
-        Donor
+    <>
+    <user_type>
+    <div class="container">
 
-      </div>
-      <div className="om">
-        Receiver
-
-      </div>
-    
+<div class="card">
+  <div class="face face1">
+    <div class="content">
+      <span class="stars"></span>
+      <p class="java">DONOR</p>
+      <p class="java">Donate what you have to the needy ones.</p>
     </div>
+  </div>
+  <div class="face face2">
+    <p>DONOR</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="face face1">
+    <div class="content">
+      <span class="stars"></span>
+      <p class="python">RECEIVER</p>
+      <p class="python">Ask the donors for the needs of your organization.</p>
+    </div>
+  </div>
+  <div class="face face2">
+    <p>RECEIVER</p>
+  </div>
+</div>
+</div>
+
+    </user_type>
     
-  );
+    </>
+  )
 }
+    
+
